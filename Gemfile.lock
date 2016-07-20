@@ -7,10 +7,19 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    awesome_print (1.7.0)
+    dotenv (2.1.1)
     i18n (0.7.0)
     json (1.8.3)
+    mini_portile2 (2.1.0)
     minitest (5.9.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    ruby-oci8 (2.2.2)
     ruby-progressbar (1.8.1)
+    sequel (4.36.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -20,7 +29,12 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  awesome_print
+  dotenv
+  nokogiri
+  ruby-oci8
   ruby-progressbar
+  sequel
 
 BUNDLED WITH
    1.12.5
